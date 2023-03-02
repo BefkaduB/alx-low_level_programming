@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - ckeck the code for
+ * Return: Always 0.
+ */
 int main(void)
 {
 	int n;
