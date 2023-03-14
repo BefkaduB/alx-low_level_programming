@@ -6,7 +6,7 @@
  * @c: char to assign
  * Return: pointer to array, Null if fail
  */
-char *create_arry(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *str;
 	unsigned int i;
