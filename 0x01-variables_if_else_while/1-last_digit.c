@@ -5,6 +5,7 @@
 /**
  * mian - Print a text according the number
  * Return: Always (Success)
+ *
  */
 int main(void)
 {
