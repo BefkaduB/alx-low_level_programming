@@ -24,6 +24,7 @@ int _strlen(char *s)
  * @src: string to be copied
  * Return: the pointer to dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int len, i;
@@ -31,10 +32,17 @@ char *_strcpy(char *dest, char *src)
 	len = 0;
 	while (src[len] != '\0')
 	{
+		len++;
+	}
+	for (i = 0; i < len; i++)
+	{
 		dest[i] = src[i];
 	}
+	dest[i] = '\0';
+
 	return (dest);
 }
+
 /**
  * new_dog - creates a new dog
  * @name: name of the dog
